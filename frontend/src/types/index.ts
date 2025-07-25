@@ -74,6 +74,7 @@ export interface LoginResponse {
     magang_id: number;
     tanggal: string;
     kegiatan: string;
+    nama_siswa: string;
     kendala: string;
     foto: string;
     status_verifikasi: 'pending' | 'disetujui' | 'ditolak';
