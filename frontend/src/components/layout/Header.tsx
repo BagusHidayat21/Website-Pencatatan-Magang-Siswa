@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button"
 
 interface HeaderProps {
   onMenuClick: () => void
-  role: "admin" | "siswa"
+  role: "guru" | "siswa"
 }
 
 export default function Header({ onMenuClick, role }: HeaderProps) {

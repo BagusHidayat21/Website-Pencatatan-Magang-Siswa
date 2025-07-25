@@ -76,7 +76,7 @@ export default function Sidebar({ isOpen, onClose, role }: SidebarProps) {
   const pathname = usePathname()
   
   // Pilih sidebar items berdasarkan role
-  const sidebarItems = role === "guru" ? siswaSidebarItems : guruSidebarItems
+  const sidebarItems = role === "siswa" ? siswaSidebarItems : guruSidebarItems
 
   return (
     <>
